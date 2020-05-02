@@ -1,0 +1,19 @@
+# export function
+export(mcb, mcb.compare)
+
+# import function
+importFrom(glmnet, cv.glmnet)
+importFrom(glmnet, glmnet)
+importFrom(ncvreg, cv.ncvreg)
+importFrom(leaps, regsubsets)
+importFrom(reshape2, melt)
+importFrom(stats, coef)
+
+# ggplot
+importFrom(ggplot2, ggplot)
+importFrom(ggplot2, aes)
+importFrom(ggplot2, geom_line)
+importFrom(ggplot2, labs)
+importFrom(ggplot2, ylim)
+importFrom(ggplot2, scale_x_continuous)
+
