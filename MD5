@@ -1,7 +1,9 @@
-1ec3853f24670be43aa114d75e5aceb2 *DESCRIPTION
+9990030e8b719cfdc916f5000c7bb94b *DESCRIPTION
 0b96fe8454f5ed82b92855859a4ab4ce *NAMESPACE
 5ca496aa17b1d81364cdd2d8ad6bfc50 *R/mcb.R
 dfce8296404989cd89445d86baf52651 *data/Diabetes.rda
 7ce66f90d60ffbbe192048169426ad07 *man/diabetes.Rd
-2256dc726433514f36a062d6582b8877 *man/mcb.Rd
-fccd6db01dc82f900ddf5b7e3ddbc28c *man/mcb.compare.Rd
+e6cfad4d6405b9ae0912843ceba9b9bf *man/mcb.Rd
+775a6f14ff1a9767b642e622d273178d *man/mcb.compare.Rd
+fd6b9af8efb7d5c8dc0acd794967605c *tests/testthat.R
+032bd9d1c7594a2d4cfedc2e47004cac *tests/testthat/test-testFile.R

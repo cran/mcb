@@ -33,11 +33,11 @@ x <- Diabetes[,c('S1', 'S2', 'S3', 'S4', 'S5')]
 y <- Diabetes[,c('Y')]
 x <- data.matrix(x)
 y <- data.matrix(y)
-\dontrun{result <- mcb(x=x, y=y)}
+\donttest{result <- mcb(x=x, y=y)}
 # plot of the model uncertainty curve
-\dontrun{result$mucplot}
+\donttest{result$mucplot}
 # a list containing the bootstrap coverage rate and mcb
-\dontrun{result$mcb}
+\donttest{result$mcb}
 # a dataframe containing all the information about MCBs
-\dontrun{result$mcbframe}
+\donttest{result$mcbframe}
 }

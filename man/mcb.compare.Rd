@@ -32,11 +32,11 @@ x <- Diabetes[,c('S1', 'S2', 'S3', 'S4', 'S5')]
 y <- Diabetes[,c('Y')]
 x <- data.matrix(x)
 y <- data.matrix(y)
-\dontrun{result <- mcb.compare(x=x, y=y)}
+\donttest{result <- mcb.compare(x=x, y=y)}
 # plot of the model uncertainty curves for all variable selection methods
-\dontrun{result$mucplot}
+\donttest{result$mucplot}
 # a list containing the bootstrap coverage rate and mcb which based on Lasso
-\dontrun{result$mcb$Lasso}
+\donttest{result$mcb$Lasso}
 # a dataframe containing all the information about MCBs which based on Lasso
-\dontrun{result$mcbframe$Lasso}
+\donttest{result$mcbframe$Lasso}
 }
